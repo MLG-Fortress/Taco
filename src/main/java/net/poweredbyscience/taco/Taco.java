@@ -22,7 +22,7 @@ public class Taco extends JavaPlugin {
     @Override
     public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
         if (label.equalsIgnoreCase("taco") && args.length == 1) {
-            Bukkit.broadcastMessage(ChatColor.AQUA + sender.getName() + " " + prepareTaco(args[0]));
+            Bukkit.dispatchCommand(sender, "me " + prepareTaco(args[0]));
         }
         return true;
     }
