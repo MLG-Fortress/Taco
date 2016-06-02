@@ -1,4 +1,4 @@
-﻿package net.poweredbyscience.taco;
+package net.poweredbyscience.taco;
 
 import org.bukkit.ChatColor;
 import org.bukkit.Bukkit;
